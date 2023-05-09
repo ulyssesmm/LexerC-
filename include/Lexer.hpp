@@ -8,6 +8,8 @@
 #include <string>
 using namespace std;
 
+#include "Tokens.hpp"
+
 class Lexer : public yyFlexLexer
 {
 public:
